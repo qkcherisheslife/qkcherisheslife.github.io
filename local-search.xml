@@ -131,31 +131,6 @@
   
   
   <entry>
-    <title>测试置顶文章</title>
-    <link href="/2021/11/26/%E6%B5%8B%E8%AF%95%E7%BD%AE%E9%A1%B6%E6%96%87%E7%AB%A0/"/>
-    <url>/2021/11/26/%E6%B5%8B%E8%AF%95%E7%BD%AE%E9%A1%B6%E6%96%87%E7%AB%A0/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    <categories>
-      
-      <category>测试文章</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>测试</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Hello World</title>
     <link href="/2021/11/26/hello-world/"/>
     <url>/2021/11/26/hello-world/</url>
