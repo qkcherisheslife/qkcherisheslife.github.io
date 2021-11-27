@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Python 之禅</title>
+    <link href="/2021/11/27/Python-%E4%B9%8B%E7%A6%85/"/>
+    <url>/2021/11/27/Python-%E4%B9%8B%E7%A6%85/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="The-Zen-of-Python-by-Tim-Peters"><a href="#The-Zen-of-Python-by-Tim-Peters" class="headerlink" title="The Zen of Python, by Tim Peters"></a>The Zen of Python, by Tim Peters</h1><p>Beautiful is better than ugly.<br>Explicit is better than implicit.<br>Simple is better than complex.<br>Complex is better than complicated.<br>Flat is better than nested.<br>Sparse is better than dense.<br>Readability counts.<br>Special cases aren’t special enough to break the rules.<br>Although practicality beats purity.<br>Errors should never pass silently.<br>Unless explicitly silenced.<br>In the face of ambiguity, refuse the temptation to guess.<br>There should be one— and preferably only one —obvious way to do it.<br>Although that way may not be obvious at first unless you’re Dutch.<br>Now is better than never.<br>Although never is often better than <em>right</em> now.<br>If the implementation is hard to explain, it’s a bad idea.<br>If the implementation is easy to explain, it may be a good idea.<br>Namespaces are one honking great idea — let’s do more of those!</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Python相关</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Python</tag>
+      
+      <tag>优雅</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2021/11/26/hello-world/"/>
     <url>/2021/11/26/hello-world/</url>
