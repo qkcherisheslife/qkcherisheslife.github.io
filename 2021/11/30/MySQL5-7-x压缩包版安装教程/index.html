@@ -18,34 +18,30 @@
   <meta name="description" content="">
   <meta name="author" content="qkloveslife">
   <meta name="keywords" content="">
-  <meta name="description" content="JDK1.8 安装教程JDK1.8(8u202)是JDK最后一个免费可商用版本（新的JDK17好像也可以了），这里是安装教程。  下载现在下载JDK需要有ORACLE账号，不嫌麻烦的话可以申请一个，这里给出阿里云盘的分享链接：JDK1.8下载。   安装由于是exe文件，所以直接双击就可以安装，安装路径我一般会自定义，如下图：安装过程中会弹出JRE的安装路径，我一般也会自定义，如下图： 配置不更新">
+  <meta name="description" content="MySQL5.7.x压缩包版安装教程MySQL是免费的数据库，它比较经典的版本是5.7，现在新版本是8.0，这里只介绍5.7的安装方法。 下载到MySQL下载页面后选择“Looking for previous GA versions?”，如下图:会跳到5.7.x的界面：向下滚动鼠标，选择64为版本下载：跳转页面选择“No thanks…” 安装安装前准备下载完成后解压到你想要存放MySQL的目录">
 <meta property="og:type" content="article">
-<meta property="og:title" content="JDK1.8(8U202)安装教程">
-<meta property="og:url" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">
+<meta property="og:title" content="MySQL5.7.x压缩包版安装教程">
+<meta property="og:url" content="https://qkcherisheslife.gitee.io/2021/11/30/MySQL5-7-x%E5%8E%8B%E7%BC%A9%E5%8C%85%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">
 <meta property="og:site_name" content="筱竹隐士">
-<meta property="og:description" content="JDK1.8 安装教程JDK1.8(8u202)是JDK最后一个免费可商用版本（新的JDK17好像也可以了），这里是安装教程。  下载现在下载JDK需要有ORACLE账号，不嫌麻烦的话可以申请一个，这里给出阿里云盘的分享链接：JDK1.8下载。   安装由于是exe文件，所以直接双击就可以安装，安装路径我一般会自定义，如下图：安装过程中会弹出JRE的安装路径，我一般也会自定义，如下图： 配置不更新">
+<meta property="og:description" content="MySQL5.7.x压缩包版安装教程MySQL是免费的数据库，它比较经典的版本是5.7，现在新版本是8.0，这里只介绍5.7的安装方法。 下载到MySQL下载页面后选择“Looking for previous GA versions?”，如下图:会跳到5.7.x的界面：向下滚动鼠标，选择64为版本下载：跳转页面选择“No thanks…” 安装安装前准备下载完成后解压到你想要存放MySQL的目录">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-01.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-02.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-03.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-04.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-05.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-06-1.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-06-2.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-07.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-08.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-09.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-10.png">
-<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-11.png">
-<meta property="article:published_time" content="2021-11-28T14:47:27.000Z">
-<meta property="article:modified_time" content="2021-11-30T02:24:49.786Z">
+<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/30/MySQL5-7-x%E5%8E%8B%E7%BC%A9%E5%8C%85%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-01.png">
+<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/30/MySQL5-7-x%E5%8E%8B%E7%BC%A9%E5%8C%85%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-02.png">
+<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/30/MySQL5-7-x%E5%8E%8B%E7%BC%A9%E5%8C%85%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-03.png">
+<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/30/MySQL5-7-x%E5%8E%8B%E7%BC%A9%E5%8C%85%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-04.png">
+<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/30/MySQL5-7-x%E5%8E%8B%E7%BC%A9%E5%8C%85%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-05.png">
+<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/30/MySQL5-7-x%E5%8E%8B%E7%BC%A9%E5%8C%85%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-06.png">
+<meta property="og:image" content="https://qkcherisheslife.gitee.io/2021/11/30/MySQL5-7-x%E5%8E%8B%E7%BC%A9%E5%8C%85%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-07.png">
+<meta property="article:published_time" content="2021-11-30T01:36:22.000Z">
+<meta property="article:modified_time" content="2021-11-30T03:04:23.772Z">
 <meta property="article:author" content="qkloveslife">
-<meta property="article:tag" content="JDK">
-<meta property="article:tag" content="安装教程">
+<meta property="article:tag" content="MySQL">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="数据库">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://qkcherisheslife.gitee.io/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-01.png">
+<meta name="twitter:image" content="https://qkcherisheslife.gitee.io/2021/11/30/MySQL5-7-x%E5%8E%8B%E7%BC%A9%E5%8C%85%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/pic-01.png">
   
-  <title>JDK1.8(8U202)安装教程 - 筱竹隐士</title>
+  <title>MySQL5.7.x压缩包版安装教程 - 筱竹隐士</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -195,7 +191,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="JDK1.8(8U202)安装教程">
+            <span class="h2" id="subtitle" title="MySQL5.7.x压缩包版安装教程">
               
             </span>
 
@@ -205,8 +201,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-11-28 22:47" pubdate>
-        2021年11月28日 晚上
+      <time datetime="2021-11-30 09:36" pubdate>
+        2021年11月30日 上午
       </time>
     </span>
   
@@ -216,7 +212,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      759 字
+      1.2k 字
     </span>
   
 
@@ -225,7 +221,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      2 分钟
+      4 分钟
     </span>
   
 
@@ -254,15 +250,15 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">JDK1.8(8U202)安装教程</h1>
+            <h1 style="display: none">MySQL5.7.x压缩包版安装教程</h1>
             
             <div class="markdown-body">
-              <h1 id="JDK1-8-安装教程"><a href="#JDK1-8-安装教程" class="headerlink" title="JDK1.8 安装教程"></a>JDK1.8 安装教程</h1><p>JDK1.8(8u202)是JDK最后一个免费可商用版本（新的JDK17好像也可以了），这里是安装教程。 </p>
-<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>现在下载JDK需要有ORACLE账号，不嫌麻烦的话可以申请一个，这里给出阿里云盘的分享链接：<a target="_blank" rel="noopener" href="https://www.aliyundrive.com/s/BYb7rKeJvyJ">JDK1.8下载</a>。  </p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>由于是exe文件，所以直接双击就可以安装，安装路径我一般会自定义，如下图：<br><img src="pic-01.png" srcset="/img/loading.gif" lazyload alt=""><br>安装过程中会弹出JRE的安装路径，我一般也会自定义，如下图：<br><img src="pic-02.png" srcset="/img/loading.gif" lazyload alt=""></p>
-<h3 id="配置不更新"><a href="#配置不更新" class="headerlink" title="配置不更新"></a>配置不更新</h3><p>由于是低版本JDK，有时（尤其是重启后）会弹出更新，所以这里设置成不更新。<br>点击屏幕左下角的“开始按钮”，会弹出如下界面（由于是刚安装的，所以“配置Java”会显示在上面）。<br><img src="pic-03.png" srcset="/img/loading.gif" lazyload alt=""><br>点击“配置Java”，然后点击“更新”-&gt;取消勾选“自动检查更新”-&gt;弹出提示时选择“不检查”-&gt;“应用”-&gt;“确定”。<br><img src="pic-04.png" srcset="/img/loading.gif" lazyload alt=""></p>
-<h2 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h2><p>配置环境变量的目的一般有两个：1. 在命令窗口可以直接使用java和javac等命令；2. 让一些依赖Java的软件（Eclipse, MyEclipse等）能够在安装时识别别Java环境并顺利安装。<br>点击屏幕左下角的“开始按钮”，弹出后直接打字“高级系统”，会弹出如下界面：<br><img src="pic-05.png" srcset="/img/loading.gif" lazyload alt=""><br>点击“查看高级系统设置”，弹出如下界面：<br><img src="pic-06-1.png" srcset="/img/loading.gif" lazyload alt=""><br>点击“环境变量”，弹出如下界面：<br><img src="pic-06-2.png" srcset="/img/loading.gif" lazyload alt=""><br>点击新建，弹出框“变量名”输入“JAVA_HOME”，“变量值”输入你的JDK安装路径，点解确定，然后如下图：<br><img src="pic-07.png" srcset="/img/loading.gif" lazyload alt=""><br>先选择“path”，再点击“编辑”后弹出如下界面：<br><img src="pic-08.png" srcset="/img/loading.gif" lazyload alt=""><br>先点击“新建”，然后复制你的JDK目录下的“bin”文件夹的完整路径，然后一路“确定”下去。</p>
-<h2 id="验证安装"><a href="#验证安装" class="headerlink" title="验证安装"></a>验证安装</h2><p>点击屏幕左下角的“开始按钮”，弹出后输入“cmd”，弹出如下界面：<br><img src="pic-09.png" srcset="/img/loading.gif" lazyload alt=""><br>点击“命令提示符”，弹出窗口输入“java”、“javac”测试输出，尤其是“javac”。<br><img src="pic-10.png" srcset="/img/loading.gif" lazyload alt=""><br>输入“java -version”查看JDK版本<br><img src="pic-11.png" srcset="/img/loading.gif" lazyload alt=""></p>
+              <h1 id="MySQL5-7-x压缩包版安装教程"><a href="#MySQL5-7-x压缩包版安装教程" class="headerlink" title="MySQL5.7.x压缩包版安装教程"></a>MySQL5.7.x压缩包版安装教程</h1><p>MySQL是免费的数据库，它比较经典的版本是5.7，现在新版本是8.0，这里只介绍5.7的安装方法。</p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>到MySQL<a target="_blank" rel="noopener" href="https://dev.mysql.com/downloads/mysql/">下载页面</a>后选择“Looking for previous GA versions?”，如下图:<br><img src="pic-01.png" srcset="/img/loading.gif" lazyload alt=""><br>会跳到5.7.x的界面：<br><img src="pic-02.png" srcset="/img/loading.gif" lazyload alt=""><br>向下滚动鼠标，选择64为版本下载：<br><img src="pic-03.png" srcset="/img/loading.gif" lazyload alt=""><br>跳转页面选择“No thanks…”<br><img src="pic-04.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="安装前准备"><a href="#安装前准备" class="headerlink" title="安装前准备"></a>安装前准备</h3><p>下载完成后解压到你想要存放MySQL的目录，比如：<br><img src="pic-05.png" srcset="/img/loading.gif" lazyload alt=""><br>将MySQL的bin目录添加到“系统环境变量”中：<br><img src="pic-06.png" srcset="/img/loading.gif" lazyload alt=""><br>进入MySQL的目录，在里面新建一个“文本文档”（也就是txt文件）。将这个文件重命名为“my.ini”（<strong>注意这是是包括后缀名的</strong>）。<br><img src="pic-07.png" srcset="/img/loading.gif" lazyload alt=""><br>右键“编辑”，复制如下内容后保存：<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs routeros">[client]<br><span class="hljs-attribute">port</span>=3306<br><span class="hljs-attribute">default-character-set</span>=utf8<br>[mysqld] <br><span class="hljs-comment"># 设置为自己MYSQL的安装目录 </span><br><span class="hljs-attribute">basedir</span>=D:\Programs\mysql-5.7.36-winx64<br><span class="hljs-comment"># 设置为MYSQL的数据目录 </span><br><span class="hljs-attribute">datadir</span>=D:\Programs\mysql-5.7.36-winx64\data<br><span class="hljs-attribute">port</span>=3306<br><span class="hljs-attribute">character_set_server</span>=utf8<br><span class="hljs-attribute">sql_mode</span>=NO_ENGINE_SUBSTITUTION,NO_AUTO_CREATE_USER<br><span class="hljs-comment">#开启查询缓存</span><br><span class="hljs-attribute">explicit_defaults_for_timestamp</span>=<span class="hljs-literal">true</span><br><span class="hljs-comment">#默认数据库引擎</span><br><span class="hljs-attribute">default-storage-engine</span>=INNODB<br><span class="hljs-comment">#跳过密码登录</span><br>skip-grant-tables<br></code></pre></td></tr></table></figure><br><strong>注意：</strong> “basedir”后面的内容要改成你的安装目录，“datadir”后面的内容要改成你的安装目录再加“\data”。“skip-grant-tables”是用于跳过密码登录的。</p>
+<h3 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h3><p>“以管理员身份”打开”命令提示符”。<br>执行如下命令：<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">mysqld <span class="hljs-keyword">install</span><br></code></pre></td></tr></table></figure><br>接着执行：<br><figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs brainfuck"><span class="hljs-comment">mysqld</span> --<span class="hljs-comment">initialize</span><span class="hljs-literal">-</span><span class="hljs-comment">insecure</span> --<span class="hljs-comment">user=mysql</span><br></code></pre></td></tr></table></figure><br>启动MySQL服务：<br><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dos"><span class="hljs-built_in">net</span> <span class="hljs-built_in">start</span> mysql<br></code></pre></td></tr></table></figure><br>进入MySQL：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">mysql -uroot -<span class="hljs-selector-tag">p</span><br></code></pre></td></tr></table></figure><br>提示输入密码，不用输入，直接回车。</p>
+<p>进入后输入以下命令修改密码：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sql">UPDATE mysql.user <span class="hljs-keyword">SET</span> authentication_string <span class="hljs-operator">=</span> PASSWORD(<span class="hljs-string">&#x27;新密码&#x27;</span>) <span class="hljs-keyword">WHERE</span> <span class="hljs-keyword">user</span> <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;root&#x27;</span>;<br></code></pre></td></tr></table></figure><br>输入以下命令刷新权限：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sql">FLUSH PRIVILEGES;<br></code></pre></td></tr></table></figure><br>输入以下命令退出：<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-keyword">exit</span>;<br></code></pre></td></tr></table></figure></p>
+<h2 id="安装后续处理"><a href="#安装后续处理" class="headerlink" title="安装后续处理"></a>安装后续处理</h2><p>先停止mysql服务。以管理员身份打开命令提示符后输入：<br><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arduino">net stop mysql<br></code></pre></td></tr></table></figure><br>去到MySQL的安装目录修改“my.ini”文件，在“skip-grant-tables”前面加上“#”后保存。<br>在命令行窗口重新启动mysql服务<br><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dos"><span class="hljs-built_in">net</span> <span class="hljs-built_in">start</span> mysql<br></code></pre></td></tr></table></figure></p>
 
             </div>
             <hr>
@@ -272,7 +268,9 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/Java/">Java</a>
+                      <a class="hover-with-bg" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a>
+                    
+                      <a class="hover-with-bg" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/">MySQL</a>
                     
                   </div>
                 
@@ -280,9 +278,11 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/JDK/">JDK</a>
+                      <a class="hover-with-bg" href="/tags/MySQL/">MySQL</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">安装教程</a>
+                      <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a>
                     
                   </div>
                 
@@ -299,18 +299,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/11/30/MySQL5-7-x%E5%8E%8B%E7%BC%A9%E5%8C%85%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">MySQL5.7.x压缩包版安装教程</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/11/27/Python-%E4%B9%8B%E7%A6%85/">
-                        <span class="hidden-mobile">Python 之禅</span>
+                      <a href="/2021/11/28/JDK1-8-8U202-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">
+                        <span class="hidden-mobile">JDK1.8(8U202)安装教程</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
